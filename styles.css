@@ -1,0 +1,234 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #212529;
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+    height:100%;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgba(255, 255, 255, .6);
+    font-size: 40px;
+    gap:32px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, .6);
+    font-size: 20px;
+    margin-top:32px;
+    gap:32px;
+}
+
+a {
+    margin-right:8px;
+}
+
+p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .6);
+}
+
+
+nav {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border:8px;
+    background-color: #141414;
+    opacity:0.6;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+}
+
+.circle {
+  border: 2px solid #06402B;
+  border-radius: 26px;
+  padding: 4px 12px;
+  display: inline-block;
+  text-align: center;
+  background-color: #06402B;
+}
+
+#andrijana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+#andrijana2 {
+    height: 270px;
+    width: 275px;
+    border-radius: 8px;
+}
+
+#cat {
+    height: 250px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .6);
+    margin-top:auto;
+}
+
+.column1 {
+    display:flex;
+    flex-flow:column;
+    margin-right:36px;
+}
+
+.row1 {
+    display:flex;
+    flex-flow:row;
+}
+
+hr {
+    width:100%;
+    color: rgba(255, 255, 255, .6);
+}
+
+h4 {
+    gap:32px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+h5 {
+    color: rgba(255, 255, 255, .6);
+    font-size:12px;
+}
+
+#money {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius:8px;
+}
+
+#phone {
+    font-size: 70px;
+    padding: 32px;
+    margin: 32px;
+}
+
+#message {
+    color: #8b0000;
+    font-size:48px;
+
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+        margin-right: 20px;
+        margin-left: 110px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    h2 {
+        font-size:28px;
+    }
+
+    p {
+        font-size:16px;
+    }
+
+    .row1 {
+        display:flex;
+        flex-flow:column;
+        justify-content:center;
+    }
+
+   .column1 {
+        margin-right: 0px;
+    }
+
+    .reverse {
+        flex-flow:column-reverse;
+    }
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+}
+
+    #money {
+        width:100%;
+    }
+
+    #andrijana2 {
+        height: 200px;
+        width:200px;
+    }
+
+    #cat {
+        width:80%;
+        height: 80%
+    }
+
+    div {
+        padding-right:0px;
+    }
+
+}
+
+
+
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+}

@@ -1,0 +1,32 @@
+10 HTML tags I have used:
+
+1. div
+2. h1
+3. h2
+4. h3
+5. h4
+6. h5
+6. p
+7. i
+8. nav
+9. button
+10. a
+11. img
+12. footer
+
+
+5 CSS properties I have used:
+1. font-size
+2. margin
+3. padding
+4. color
+5. background-color
+6. gap
+7. opacity
+8. display
+9. border-radius
+10. flex-flow
+
+
+Description of how I chose to use JS and BS:
+I have used Bootstrap for buttons and colors, and Javascript for improving interactive functions, such as ability for buttons to change color and copy text, images to appear smoothly, and texts to appear when a mouse goes over an element.
